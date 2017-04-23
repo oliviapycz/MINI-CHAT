@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 70%;
+  margin: auto;
+}
+header{
+  background-color: grey;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  height: 70px;
+}
+.chaton{
+  width: 100px;
+}
+.container1{
+  margin-bottom: 30px;
+}
+fieldset{
+  box-shadow: 10px 10px 5px #888888;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+.container2{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.titre_commentaire{
+  border: 2px solid grey;
+  background-color: grey;
+  margin-bottom: 10px;
+}
+.commentaires{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+.date_pseudo{
+  display: flex;
+  flex-direction: column;
+  padding-right: 25px;
+  border-right: 1px solid grey;
+}
+.message{
+  padding-right: 20px;
+}
+.pseudo{
+  margin-bottom: 8px;
+}
